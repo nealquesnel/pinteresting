@@ -26,17 +26,8 @@ gem 'bootstrap-sass'
 
 group :development, :test do
 	gem 'sqlite3'
-end
 
-group :production do:
-	gem 'pg'
-	gem 'rails_12factor'
-end
-
-
-
-group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+	  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
@@ -46,3 +37,7 @@ group :development, :test do
   gem 'spring'
 end
 
+group :production do
+	gem 'pg'
+	gem 'rails_12factor'
+end
