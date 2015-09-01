@@ -5,7 +5,7 @@ class PagesController < ApplicationController
   def About
   end
 
-  def Meet_the_team
+  def team
   end
 
 end
